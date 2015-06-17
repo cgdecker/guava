@@ -1,0 +1,20 @@
+{
+  "name": "guava-pages",
+  "version": "1.0",
+  "homepage": "http://google.github.io/guava",
+  "authors": [
+    "Colin Decker <cgdecker@google.com>"
+  ],
+  "description": "gh-pages site for Guava",
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}

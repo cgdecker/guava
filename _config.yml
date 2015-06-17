@@ -9,6 +9,8 @@ permalink: /news/:year/:month/:day/:title/
 markdown: kramdown
 
 exclude:
+- "bower.json"
+- "bower_components"
 - "Gemfile*"
 - "README.md"
 - "*.sh"
