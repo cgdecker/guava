@@ -29,6 +29,15 @@ collections:
    output: true
    permalink: /:collection/:path/
 
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
 # Release data
 # Do not change! updaterelease.sh automatically updates these fields
 latest_release: 18.0
